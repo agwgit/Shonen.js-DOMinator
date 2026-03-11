@@ -3,7 +3,7 @@
 [![Status: Viral Alpha](https://img.shields.io/badge/Status-Viral_Alpha-ff0055?style=for-the-badge)](https://shonenjs.anthonygracey.com)
 [![Engine: GSAP + Vanilla JS](https://img.shields.io/badge/Engine-GSAP_3.12-00e5ff?style=for-the-badge)](https://greensock.com/)
 
-**A JavaScript physics engine designed to turn any live website into an interactive 2D destruction sandbox.**
+**A JavaScript physics engine designed to turn any DOM into an interactive 2D physics sandbox.**
 
 The Detonator is a client-side injection script that hijacks the DOM, converts static elements into hardware-accelerated physics objects, and blasts them across the viewport using mass-based gravity and collision mechanics.
 
@@ -25,7 +25,7 @@ You don't need to `npm install` anything. The Detonator runs entirely in your br
 
 1. **Show your Bookmarks Bar** in Chrome/Safari/Edge (`Ctrl+Shift+B` or `Cmd+Shift+B`).
 2. **Right-click** the bar and select **Add Page** (or "Add Bookmark").
-3. Name it `Shonen Detonator`.
+3. Name it `Shonen.js Detonator`.
 4. Copy the entire minified JavaScript payload below and paste it into the **URL** field.
 5. Save it.
 
@@ -36,8 +36,8 @@ javascript:(function(){if(typeof gsap==='undefined'){let s=document.createElemen
 
 ### 🎯 Firing the Weapon
 
-1. Navigate to a text/image-heavy website (like Wikipedia, Hacker News, or a messy corporate dashboard).
-2. Click the `Shonen Detonator` in your bookmarks bar to arm the script.
+1. Navigate to your own projects or almost any standard website (like Wikipedia or Hacker News).
+2. Click the `Shonen.js Detonator` in your bookmarks bar to arm the script.
 3. **Click anywhere on the webpage.** 4. Scroll down, and click again. Keep firing until the DOM is nothing but rubble.
 
 ---
